@@ -296,7 +296,8 @@ resource "aws_instance" "app_server_1" {
 
     \$server_ip = \$_SERVER['SERVER_ADDR'];
 
-    echo '<h1>Server Information</h1>';
+    echo '<h1>Hello World!</h1>';
+    echo '<h2>Server Information</h2>';
     echo '<p><strong>Operating System:</strong> ' . \$os_info . '</p>';
     echo '<p><strong>Free Disk Space:</strong> ' . formatSize(\$disk_free_space) . '</p>';
     echo '<p><strong>Total Disk Space:</strong> ' . formatSize(\$disk_total_space) . '</p>';
